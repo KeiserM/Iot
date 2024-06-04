@@ -1,0 +1,43 @@
+<html>
+
+  <head>
+    <title>Teste</title>
+    
+    <link rel="stylesheet" type="text/css" href="./Style.css" media="screen" />
+  </head>
+   
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js";
+    import { getDatabase } from "firebase/database";
+  
+  </script>
+  
+  <script src = "./firebase.js"></script>
+  
+  <script>
+  function ledOn() {
+      firebase.database().ref("Sala").set({
+        Estado: "LIGADA"
+      });
+    }
+
+    function ledOff() {
+      firebase.database().ref("Sala").set({
+        Estado: "DESLIGADA"
+      });
+    }
+ </script>
+  
+  
+  <body class="centered-grid">
+    <h1>TME iot curso Lvl 2</h1>
+    <p> Escolha uma opcao!</p>
+    <button class ="botao" onclick="ledOn()"> Power ON </button>
+    </p>
+    <button class="botao2" onclick="ledOff()"> Power OFF </button>
+    
+  </body>
+  
+</html>
