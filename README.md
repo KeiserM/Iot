@@ -19,7 +19,7 @@ Este projeto foi desenvolvido nas aulas de IoT e tem como objetivo conectar um A
 - Conecta-se ao WiFi e ao Firebase.
 - Lê o estado do Firebase e controla o LED de acordo.
 - Envia valores randômicos de teste ao Firebase.
-- o codigo fonte podes ser encontrado em [CodigoEsp8266](https://github.com/zilefc/IoT-UJC/tree/3da40505b65e7766a59e1e2646541cb34237060f/CodigoEsp8266)
+- o codigo fonte pode ser encontrado em [CodigoEsp8266](https://github.com/zilefc/IoT-UJC/tree/3da40505b65e7766a59e1e2646541cb34237060f/CodigoEsp8266)
 
 ### Código da Interface Web
 - `index.html`: Página com botões para ligar/desligar o LED.
